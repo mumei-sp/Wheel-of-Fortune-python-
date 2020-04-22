@@ -81,9 +81,9 @@ def clicked(alphabet):
     if (all([globals()["b0%s" %j]["text"]==s[j] for j in range(len(s))])):
         messagebox.showinfo("congratulations", "U R Fortunate!!!!\n You have: $" + str(total))
         window.destroy()
-    
-
-
+        
+print('Guess one letter at a time. If you want to buy a vowel, you must have at least $250, otherwise, you cannot buy a vowel.\nIf spin stops at "Bankrupt",the player losses all the money ')
+print("Solve the puzzle!!\nHave Fun")
 import time
 from random import randint
 from tkinter import *
